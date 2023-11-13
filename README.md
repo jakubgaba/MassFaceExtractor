@@ -41,27 +41,26 @@
 
 ## :dart: About ##
 
-Describe your project
+Extracting face from a directory, after that images are gonna be scaled. To controll scale margin you can change margin inside of a code.
+```bash
+margin = 50
+```
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
-
-## :rocket: Technologies ##
-
-The following tools were used in this project:
-
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-
+:heavy_check_mark: haarcascade_frontalface_default.xml;\
+:heavy_check_mark: haarcascade_profileface.xml;\
+:heavy_check_mark: Scale;\
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) installed.
+1. Python: A recent version of Python installed (Python 3.6 or newer is recommended).
+2. OpenCV Library: Install OpenCV for Python. You can do this via pip:
+```bash
+pip install opencv-python
+```
+3. Write Permissions: The script will attempt to create a directory (./test) and write output images there, so ensure you have the necessary permissions in your working environment.
+4. Secure all path correct !.
 
 ## :checkered_flag: Starting ##
 
