@@ -4,8 +4,10 @@ import os
 CURRENT_PATH = os.path.dirname(__file__)
 extensions = ['jpeg', 'png', 'jpg']
 
-directory = './input2'
-out_src = './test7'
+
+#Change here directories for input and output
+directory = './input'
+out_src = './test'
 
 # Load OpenCV's pre-trained face detection models
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
