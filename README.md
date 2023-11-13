@@ -31,10 +31,8 @@
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="https://github.com/jakubgaba" target="_blank">Author</a>
 </p>
 
 <br>
@@ -50,7 +48,7 @@ margin = 50
 
 :heavy_check_mark: haarcascade_frontalface_default.xml;\
 :heavy_check_mark: haarcascade_profileface.xml;\
-:heavy_check_mark: Scale;\
+:heavy_check_mark: Scale;
 ## :white_check_mark: Requirements ##
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) installed.
@@ -60,7 +58,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) in
 pip install opencv-python
 ```
 3. Write Permissions: The script will attempt to create a directory (./test) and write output images there, so ensure you have the necessary permissions in your working environment.
-4. Secure all path correct !.
+4. Secure all path correct !
 
 ## :checkered_flag: Starting ##
 
